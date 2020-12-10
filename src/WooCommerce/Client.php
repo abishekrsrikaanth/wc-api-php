@@ -62,7 +62,7 @@ class Client
      * @param string $endpoint API endpoint.
      * @param array  $data     Request data.
      *
-     * @return array
+     * @return \stdclass
      */
     public function put($endpoint, $data)
     {
@@ -75,7 +75,7 @@ class Client
      * @param string $endpoint   API endpoint.
      * @param array  $parameters Request parameters.
      *
-     * @return array
+     * @return \stdclass
      */
     public function get($endpoint, $parameters = [])
     {
@@ -88,7 +88,7 @@ class Client
      * @param string $endpoint   API endpoint.
      * @param array  $parameters Request parameters.
      *
-     * @return array
+     * @return \stdclass
      */
     public function delete($endpoint, $parameters = [])
     {
@@ -100,7 +100,7 @@ class Client
      *
      * @param string $endpoint API endpoint.
      *
-     * @return array
+     * @return \stdclass
      */
     public function options($endpoint)
     {
