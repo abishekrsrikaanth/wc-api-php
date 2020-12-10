@@ -359,7 +359,7 @@ class HttpClient
     /**
      * Process response.
      *
-     * @return array
+     * @return \stdClass
      */
     protected function processResponse()
     {
