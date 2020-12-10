@@ -385,7 +385,7 @@ class HttpClient
 
         $this->lookForErrors($parsedResponse);
 
-        return $parsedResponse;
+        return json_decode(json_encode($parsedResponse), true);
     }
 
     /**
